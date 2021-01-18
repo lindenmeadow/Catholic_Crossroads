@@ -6,8 +6,12 @@
 }
 
 .navbar {
-  background-color: #e6b89c !important;
+  background-color: #568259 !important;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a {
+  color: ivory !important;
 }
 
 .navbar-brand {
@@ -16,15 +20,23 @@
 
 .navbar-nav {
   margin-left: auto;
+  text-align: right;
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid ivory;
+}
+
+.dropdown-menu {
+  background-color: #003300;
+}
+
+.dropdown-item:hover {
+  color: black !important;
 }
 
 .active {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid ivory;
 }
 
 .hero-img {
@@ -77,6 +89,16 @@ footer {
   width: 75%;
   display: flex;
   justify-content: space-around;
+}
+
+.hero-links a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.caption {
+  color: ivory;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
