@@ -7,7 +7,7 @@
 
 .navbar {
   background-color: #568259 !important;
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.25);
 }
 
 .navbar a {
@@ -25,14 +25,6 @@
 
 .nav-link:hover {
   border-bottom: 2px solid ivory;
-}
-
-.dropdown-menu {
-  background-color: #003300;
-}
-
-.dropdown-item:hover {
-  color: black !important;
 }
 
 .active {
@@ -96,19 +88,34 @@ footer {
   text-align: center;
 }
 
+.hero-links a:hover {
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+}
+
 .caption {
   color: ivory;
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) {
-  * {
-    font-size: 10px;
-  }
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("img/traveler.jpg") no-repeat center / cover;
+  min-height: 100vh;
+}
 
-  .hero-img {
-    margin: 0.5rem;
-  }
+.subject {
+  width: 80%;
+  height: 100vh;
+  background: white;
+  margin: auto;
+  padding: 3rem 4rem;
+}
+
+.subject h1 {
+  text-align: center;
+  margin-top: 5rem;
 }
 
 footer {
@@ -119,4 +126,14 @@ footer {
 
 footer a {
   color: ivory;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 10px;
+  }
+
+  .hero-img {
+    margin: 0.5rem;
+  }
 }
