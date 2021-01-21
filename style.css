@@ -118,6 +118,10 @@ main {
   margin-top: 5rem;
 }
 
+.prayers img {
+  height: 11rem;
+}
+
 footer {
   background-color: #568259;
   color: ivory;
