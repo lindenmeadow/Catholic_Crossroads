@@ -105,21 +105,13 @@ main {
   min-height: 100vh;
 }
 
-.subject {
-  width: 80%;
-  height: 100vh;
-  background: white;
-  margin: auto;
-  padding: 3rem 4rem;
+.prayer-card {
+  width: 15rem;
 }
 
-.subject h1 {
-  text-align: center;
-  margin-top: 5rem;
-}
-
-.prayers img {
-  height: 11rem;
+.prayer-card img {
+  width: 100%;
+  height: 10rem;
 }
 
 footer {
