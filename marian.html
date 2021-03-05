@@ -7,7 +7,7 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
@@ -50,10 +50,44 @@
 <main class="p-5">
     <section class="card m-5">
         <h1 class="card-title text-center">Marian Prayers</h1>
+       <figure class="text-center">
+            <img src="img/The-Angelus.jpg" class="img-fluid img-thumbnail top-img" alt="The Angelus">
+            <figcaption class="text-center"><cite>The Angelus</cite>, by Jean-François Millet</figcaption>
+        </figure>
+        
         <div class="card-body">
             <div class="row d-flex justify-content-around mb-3">
                 <div class="text-center">
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">The Angelus</button>
+                    <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Angelus</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-start">
+                                    <p>V. The Angel of the Lord declared unto Mary.<br>
+                                       R. And she conceived of the Holy Spirit.</p>
+                                    <p>Hail, Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</p>
+                                    <p>V. Behold the handmaid of the Lord.<br>
+                                       R. Be it done unto me according to thy word.</p>
+                                    <p>Hail, Mary...</p>
+                                    <p>V. And the Word was made flesh.<br>
+                                       R. And dwelt among us.</p>
+                                    <p>Hail, Mary...</p>
+                                    <p>V. Pray for us, O holy Mother of God.<br>
+                                       R. That we may be made worthy of the promises of Christ.</p>
+                                    <p>Let us pray. Pour forth, we beseech Thee, O Lord, Thy grace into our hearts, that we, to whom the Incarnation of Christ Thy Son was made known by the message of an angel, may by His Passion and Cross be brought to the glory of His Resurrection. Through the same Christ Our Lord. Amen.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
                     <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -61,7 +95,7 @@
                                     <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body text-start">
                                             ...
                                 </div>
                                 <div class="modal-footer">
@@ -71,7 +105,7 @@
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
                     <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -79,7 +113,7 @@
                                     <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body text-start">
                                             ...
                                 </div>
                                 <div class="modal-footer">
@@ -89,7 +123,7 @@
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
                     <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -97,7 +131,7 @@
                                     <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body text-start">
                                             ...
                                 </div>
                                 <div class="modal-footer">
@@ -107,7 +141,7 @@
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
                     <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -115,7 +149,7 @@
                                     <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body text-start">
                                             ...
                                 </div>
                                 <div class="modal-footer">
@@ -125,25 +159,7 @@
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
-                    <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                            ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#gmModal">Prayer</button>
                         <div class="modal fade" id="gmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -151,7 +167,7 @@
                                         <h5 class="modal-title" id="exampleModalLabel">Prayer</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body text-start">
                                                 ...
                                     </div>
                                     <div class="modal-footer">
@@ -170,13 +186,6 @@
 </main>
 
 
-
-<footer class="text-center">
-    <h4>Coded by L. E. Barnes</h4>
-    <h4>Image Acknowledgements:</h4>
-    <p>Images courtesy of <a href="https://pixabay.com/users/josealbafotos-1624766/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3433120">Jose Antonio Alba</a>, <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=111317">Gerd Altmann</a>, <a href="https://pixabay.com/users/fiveflowersforfamilyfirst-552028/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2282303">FiveFlowersForFamilyFirst</a>, <a href="https://pixabay.com/users/falco-81448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=535155">falco</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3433120">Pixabay</a></p>
-    
-</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
