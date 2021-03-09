@@ -114,6 +114,22 @@ main {
   height: 10rem;
 }
 
+.quote {
+  background-color: #e6e6ff;
+  width: 80%;
+  border-radius: 2rem;
+  margin: auto;
+}
+
+.top-img {
+  max-width: 20rem;
+}
+
+.calendar-now {
+  width: 35%;
+  margin: auto;
+}
+
 footer {
   background-color: #568259;
   color: ivory;
@@ -131,5 +147,10 @@ footer a {
 
   .hero-img {
     margin: 0.5rem;
+  }
+
+  .calendar-now {
+    width: 75%;
+    margin: auto;
   }
 }
