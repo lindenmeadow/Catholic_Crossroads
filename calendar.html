@@ -47,20 +47,37 @@
     </div>
   </nav>
 
-<main>
-    <section class="subject">
-        
+<main class="p-5">
+    <section class="card m-5">
+      <h1 class="card-title text-center">The Church Calendar</h1>
+      <div class="text-center">
+        <figure>
+          <img src="img/catholic-liturgy.jpg" class="img-fluid img-thumbnail top-img" alt="priests at mass">
+          <figcaption class="text-center">"All things have their season, and in their times all things pass under heaven." <br>
+            Ecclesiastes 3:1</figcaption>
+        </figure>
+        <img class="img-fluid" src="img/Liturgical_year.svg.png" alt="liturgical year">
+        <br>
+        <a href="books/2021cal_1.pdf" class="btn btn-success m-3" target="_blank">2021 Liturgical Calendar for the Dioceses of the United States of America (PDF)</a>
+        <br>
+        <a href="https://bible.usccb.org/daily-bible-reading" class="btn btn-outline-success mb-1" target="_blank">Daily Scripture Readings</a> <a class="btn btn-outline-success mb-1" href="http://www.fsspolgs.org/liturgical-aids/liturgical-calendar/" target="_blank">Online Church Calendar</a>
+      </div>
+
+      <div class="card calendar-now mt-3 mb-3 text-center">
+        <div class="card-header">
+          Currently in the calendar...
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item yesterday"></li>
+          <li class="list-group-item today"></li>
+          <li class="list-group-item tomorrow"></li>
+        </ul>
+      </div>
     </section>
-</main>
+  </main>
 
-
-
-<footer class="text-center">
-    <h4>Coded by L. E. Barnes</h4>
-    <h4>Image Acknowledgements:</h4>
-    <p>Images courtesy of <a href="https://pixabay.com/users/josealbafotos-1624766/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3433120">Jose Antonio Alba</a>, <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=111317">Gerd Altmann</a>, <a href="https://pixabay.com/users/fiveflowersforfamilyfirst-552028/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2282303">FiveFlowersForFamilyFirst</a>, <a href="https://pixabay.com/users/falco-81448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=535155">falco</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3433120">Pixabay</a></p>
-    
-</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
